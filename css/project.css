@@ -1,0 +1,856 @@
+@font-face {
+    src: url(../fonts/Manda.ttf);
+    font-family: manda;
+}
+
+@font-face {
+    src: url(../fonts/Amitha.ttf);
+    font-family: amitha;
+}
+
+@font-face {
+    src: url(../fonts/CalligraphyFLF.ttf);
+    font-family: calli;
+}
+
+@font-face {
+    src: url(../fonts/Amperzand.ttf);
+    font-family: amper;
+}
+
+@font-face {
+    src: url(../fonts/assasin.ttf);
+    font-family: assasin;
+}
+
+@font-face {
+    src: url(../fonts/DecontructightOblique.ttf);
+    font-family: lamborgini;
+}
+
+@font-face {
+    src: url(../fonts/Bonjour.ttf);
+    font-family: bonjour;
+}
+
+@font-face {
+    src: url(../fonts/George\ Demo.otf);
+    font-family: george;
+}
+
+@font-face {
+    src: url(../fonts/Fearlessly\ Authentic\ Regular\ DEMO.otf);
+    font-family: fearless;
+}
+
+@font-face {
+    src: url(../fonts/Average\ Demo.otf);
+    font-family: average;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.logo {
+    background-color: rgb(218, 218, 142);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo>h1 {
+    font-family: manda;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    justify-content: center
+}
+
+.navbar nav {
+    background-color: red;
+    height: 50px;
+    height: 50px;
+    background-color: rgb(215, 183, 183);
+    list-style: none;
+    align-items: center;
+}
+
+.nav {
+    background-color: rgb(233, 233, 148);
+    height: 50px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 1.2rem;
+}
+
+.nav-link {
+    font-family: amper;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+.cart {
+    background-color: transparent;
+    border: none;
+}
+
+.search {
+    background-color: transparent;
+    border: none;
+}
+
+.home {
+    background-image: url(../images/bodyimg1.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.firstpage>h1 {
+
+    font-family: amitha;
+    font-size: 6rem;
+    font-weight: lighter;
+    color: rgb(210, 234, 39);
+    text-align: center;
+}
+
+.para {
+    color: white;
+    font-size: 2rem;
+    padding-top: 15px;
+    text-align: center;
+    font-family: manda;
+}
+
+.about>h1 {
+    font-size: 3rem;
+    text-align: center;
+    font-family: manda;
+    padding: 40px;
+}
+
+.about>p {
+    font-size: 2rem;
+    text-align: center;
+    font-family: lamborgini;
+    font-weight: lighter;
+}
+
+.abt>h1 {
+    font-size: 3rem;
+    text-align: center;
+    font-family: manda;
+    padding: 50px;
+}
+
+.abt>p {
+    font-size: 2rem;
+    text-align: center;
+    font-family: lamborgini;
+    font-weight: lighter;
+}
+
+.cards {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+
+}
+
+/* @keyframes kavin
+{
+    0%
+    {
+        transform: translatex(0%);
+    }
+    50%
+    {
+        transform: translateX(-400%);
+    } */
+
+
+.card {
+    margin: 20px;
+    height: 400px;
+    width: 300px;
+    border-radius: 10px;
+    font-size: 1.6rem;
+    text-align: center;
+    animation-name: kavin;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 5s;
+    transition: 5s;
+    font-family: amper;
+
+}
+
+.cardimg>img {
+    height: 350px;
+    width: 300px;
+    border-radius: 3px;
+
+}
+
+.bgimg {
+    background-image: url(../images/lot-fresh-delicious-cookies-with-small-pinecones-dried-oranges.jpg);
+    background-size: cover;
+    font-family: manda;
+    font-size: 3rem;
+    text-align: center;
+    padding: 40px;
+    height: 100vh;
+
+
+}
+
+.bgparaa {
+    padding: 40px;
+    font-family: lamborgini;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.shopnow {
+    height: 50px;
+    width: 200px;
+    border-radius: 30px;
+    background-color: orange;
+    font-size: 1.2rem;
+    font-family: bonjour;
+    font-weight: lighter;
+}
+
+.visitus {
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-left: 40px;
+
+}
+
+.visitus>.box1 {
+
+    height: 400px;
+    width: 650px;
+    background-image: url(../images/visitus2.jpg);
+    background-size: cover;
+    border-radius: 2px;
+    margin: 20px;
+}
+
+.box2 {
+
+    height: 400px;
+    width: 700px;
+    text-align: justify;
+}
+
+.box2>h1 {
+    display: flex;
+    font-family: manda;
+    font-size: 3rem;
+    padding-left: 40px;
+}
+
+.box2>p {
+    padding-left: 40px;
+    font-family: lamborgini;
+    font-size: 1.8rem;
+}
+
+.box2>button {
+    height: 50px;
+    width: 200px;
+    margin: 50px;
+    border-radius: 30px;
+    background-color: orange;
+    font-family: bonjour;
+    font-size: 1.3rem;
+    justify-content: flex-start;
+
+}
+
+.quality {
+
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-left: 40px;
+}
+
+.quality>.box3 {
+    height: 400px;
+    width: 650px;
+    background-image: url(../images/chocolate-pancakes-with-chocolate-syrup-banana.jpg);
+    background-size: cover;
+    border-radius: 2px;
+    margin: 20px;
+}
+
+.quality>.box4 {
+    height: 400px;
+    width: 700px;
+    text-align: justify;
+}
+
+.box4>h1 {
+    display: flex;
+    font-family: manda;
+    font-size: 3rem;
+    padding-left: 40px;
+
+}
+
+.box4>p {
+    padding-left: 40px;
+    font-family: lamborgini;
+    font-size: 1.8rem;
+}
+
+.box4>button {
+    height: 50px;
+    width: 200px;
+    margin: 50px;
+    border-radius: 30px;
+    background-color: orange;
+    font-family: bonjour;
+    font-size: 1.3rem;
+    justify-content: flex-start;
+}
+
+#Blog {
+
+    text-align: center;
+
+}
+
+.testimonials {
+
+    padding-top: 20px;
+
+}
+
+.testimonials>h1 {
+    font-family: manda;
+    font-size: 3rem;
+
+}
+
+.testimonials>p {
+    padding-top: 20px;
+    font-size: 1.6rem;
+    font-family: lamborgini;
+}
+
+.feedback {
+
+    display: flex;
+    height: 80px;
+    width: 100%;
+    justify-content: center;
+
+
+}
+
+.feedback>img {
+    height: 100px;
+    width: 100px;
+    align-items: center;
+}
+
+.customer {
+    font-family: amitha;
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+.recipes {
+    padding-top: 40px;
+
+    text-align: center;
+}
+
+.recipes>h1 {
+    font-family: manda;
+    font-size: 2rem;
+}
+
+.recipes>h2 {
+    padding-top: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.8rem;
+}
+
+.bakingpg {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.bakersimg {
+    margin-top: 20px;
+    height: 550px;
+    width: 700px;
+    margin-left: 20px;
+    background-image: url(../images/lemon\ cake.jpg);
+    background-size: cover;
+}
+
+.bakersimg2 {
+
+    height: 600px;
+    width: 700px;
+    display: grid;
+    grid-template-columns: repeat(1, 3fr);
+}
+
+.bakersimg2>.frst {
+    display: flex;
+}
+
+.bakersimg2>.frst>img {
+    height: 150px;
+    margin: 20px
+}
+
+.bakersimg2>.frst>.frst_cont {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.bakersimg2>.frst>.frst_cont>span {
+    color: grey;
+
+}
+
+.bakersimg2>.frst>.frst_cont>p {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.bakerylogo {
+    margin-left: 10px;
+}
+
+.newsletter {
+    background-image: url(../images/newsletter.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.newsletter>h1 {
+    color: white;
+    font-family: "Kaushan Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3rem;
+    text-shadow: rgba(255,255,255,0.9) 0px 0px 39px;
+   
+}
+
+.newsletter>p {
+    color: white;
+    font-family: "Averia Serif Libre", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+}
+
+.signbar {
+    display: flex;
+    flex-direction: row;
+}
+
+.signbar>.signup {
+    height: 45px;
+    width: 100px;
+    background-color: rgb(231, 173, 64);
+    font-family: bonjour;
+    font-size: 1rem;
+}
+.signup:hover{
+    cursor: pointer;
+    box-shadow: rgba(223, 220, 220, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.placeholder {
+    width: 300px;
+   
+}
+.contactus{
+    padding-top: 30px;
+    height: 40vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.contact>h1{
+    font-size: 2rem;
+    font-family: calli;
+    
+}
+.contact>a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.4rem;
+}
+.links>h1{
+    font-size: 2rem;
+    font-family: calli;
+
+}
+.links>a{
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: black;
+}
+.shopname>h1{
+font-family: calli;
+font-size: 3rem;
+}
+.shopname>p{
+    font-size: 1.4rem;
+    padding-top: 20px;
+    color: grey;
+}
+.contact>span{
+    font-size: 1.4rem;
+    padding-top: 20px;
+    color: grey;
+}
+.followus>h1{
+    font-size: 2rem;
+    font-family: calli;
+}
+.followus>a>img{
+    padding-top: 20px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+
+
+
+
+
+@media all and (max-width:564px) {
+    .home {
+        height: 35vh;
+        width: 100%;
+    }
+
+    header {
+        height: 35vh;
+        width: 100%;
+    }
+
+    .logo {
+
+        align-items: center;
+        padding: 0;
+
+    }
+
+    .logo>img {
+        height: 50px;
+        width: 50px;
+    }
+
+    img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .navitems>.nav-link {
+        width: 100%;
+    }
+
+
+    .logo>h1 {
+        align-items: center;
+        padding: 0;
+    }
+
+    .nav {
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+    }
+
+    .navitems {
+        padding: 5px;
+        background-color: none;
+
+    }
+
+    .home>.firstpage {
+        height: 50vh;
+        width: 100%;
+    }
+
+    .home {
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+    .firstpage>h1 {
+        font-size: 2.2rem;
+    }
+
+    .para {
+        font-family: calli;
+
+        font-size: 1.8rem;
+    }
+
+    #aboutus {
+        margin: 0;
+        padding: 0;
+        height: 35vh;
+        width: 100%;
+
+    }
+
+    .about>h1 {
+        font-size: 2.2rem;
+    }
+
+    .about>p {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        font-size: 1.2rem;
+    }
+
+    .abt>h1 {
+        font-size: 2.2rem;
+    }
+
+    .abt>p {
+        height: 20vh;
+        width: 100%;
+        padding-top: 0 0 18px 0;
+        font-size: 1.2rem;
+    }
+
+    .cards {
+        overflow-x: hidden;
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+
+    }
+
+    .bgimg>.bgpara {
+        font-size: 1.9rem;
+        text-align: center;
+        padding: 0px;
+        width: 100%;
+    }
+
+    .bgparaa {
+        margin-top: 25px;
+        font-size: 1.5rem;
+        text-align: center;
+        padding: 0px;
+    }
+
+    .bgimg>.shopnow {
+        margin-top: 30px;
+    }
+
+
+    .visitus {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 0px;
+        /* margin: 10px 0 0 0; */
+
+    }
+
+    .visitus>.box1 {
+        padding: 0px;
+        margin: 0px;
+        height: 50vh;
+        padding-left: 0px;
+        width: 100%;
+    }
+
+    .visitus>.box2 {
+        padding-left: 0px;
+        margin: 0px;
+        width: 100%;
+    }
+
+    .visitus>.box2>h1 {
+        padding-top: 20px;
+        font-size: 2.5rem;
+        justify-content: center;
+    }
+
+    .visitus>.box2>p {
+        font-size: 1.3rem;
+        padding: 10px;
+        text-align: justify;
+    }
+
+    .visitus>button {
+        align-items: center;
+    }
+
+    .quality {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 0px;
+        margin: 10px 0 0 0;
+    }
+
+    .quality>.box3 {
+        padding: 0px;
+        margin: 0px;
+        height: 50vh;
+        padding-left: 0px;
+        width: 100%;
+
+    }
+
+    .quality>.box4 {
+        padding-left: 0px;
+        margin: 0px;
+        width: 100%;
+    }
+
+    .quality>.box4>h1 {
+        padding-top: 20px;
+        font-size: 2rem;
+        justify-content: center;
+    }
+
+    .quality>.box4>p {
+        font-size: 1.3rem;
+        padding: 10px;
+        text-align: justify;
+    }
+
+    .testimonials {
+        margin-top: 40px;
+    }
+
+    .testimonials>h1 {
+        padding-top: 20px;
+        font-size: 2.5rem;
+    }
+
+    .testimonials>p {
+        font-size: 1.5rem;
+    }
+
+    .feedback {}
+
+    .customer {}
+
+    .recipes>h2 {
+        font-size: 1.2rem;
+    }
+
+    .bakingpg {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .bakersimg {
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+    }
+
+    .bakersimg2 {
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+
+    }
+
+    .frst_cont {
+        font-size: 0.8rem;
+    }
+
+    .frst>.frst_cont>p {}
+
+
+    .bakerylogo {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .bakerylogo>img {
+        height: 100px;
+    }
+
+    .newsletter {
+        background-size: cover;
+    }
+
+    .newsletter>h1 {
+        color: white;
+        font-family: "Kaushan Script", cursive;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 3rem;
+    }
+
+    .newsletter>p {
+        font-size: 1.1rem;
+    }
+
+    .signbar>.placeholder {
+        width: 180px;
+    }
+    .contactus{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align:center ;
+    }
+    .contact{
+        padding-top: 10px;
+    }
+    .links{
+        padding-top: 10px;
+    }
+    .followus{
+        padding-top: 10px;
+    }
+    .followus>h1{
+        padding-top: 10px;
+    }
+    .followus>a>img{
+        height: 30px;
+        width: 30px;
+    }
+
+
+
+
+}
