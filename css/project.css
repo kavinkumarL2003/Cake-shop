@@ -1,50 +1,50 @@
 @font-face {
-    src: url(../fonts/Manda.ttf);
+    src: url(../Assets/fonts/Manda.ttf);
     font-family: manda;
 }
 
 @font-face {
-    src: url(../fonts/Amitha.ttf);
+    src: url(../Assets/fonts/Amitha.ttf);
     font-family: amitha;
 }
 
 @font-face {
-    src: url(../fonts/CalligraphyFLF.ttf);
+    src: url(../Assets/fonts/CalligraphyFLF.ttf);
     font-family: calli;
 }
 
 @font-face {
-    src: url(../fonts/Amperzand.ttf);
+    src: url(../Assets/fonts/Amperzand.ttf);
     font-family: amper;
 }
 
 @font-face {
-    src: url(../fonts/assasin.ttf);
+    src: url(../Assets/fonts/assasin.ttf);
     font-family: assasin;
 }
 
 @font-face {
-    src: url(../fonts/DecontructightOblique.ttf);
+    src: url(../Assets/fonts/DecontructightOblique.ttf);
     font-family: lamborgini;
 }
 
 @font-face {
-    src: url(../fonts/Bonjour.ttf);
+    src: url(../Assets/fonts/Bonjour.ttf);
     font-family: bonjour;
 }
 
 @font-face {
-    src: url(../fonts/George\ Demo.otf);
+    src: url(../Assets/fonts/George\ Demo.otf);
     font-family: george;
 }
 
 @font-face {
-    src: url(../fonts/Fearlessly\ Authentic\ Regular\ DEMO.otf);
+    src: url(../Assets/fonts/Fearlessly\ Authentic\ Regular\ DEMO.otf);
     font-family: fearless;
 }
 
 @font-face {
-    src: url(../fonts/Average\ Demo.otf);
+    src: url(../Assets/fonts/Average\ Demo.otf);
     font-family: average;
 }
 
@@ -105,7 +105,7 @@
 }
 
 .home {
-    background-image: url(../images/bodyimg1.jpg);
+    background-image: url(../Assets/images/bodyimg1.jpg);
     background-size: cover;
     height: 100vh;
     width: 100%;
@@ -167,18 +167,6 @@
 
 }
 
-/* @keyframes kavin
-{
-    0%
-    {
-        transform: translatex(0%);
-    }
-    50%
-    {
-        transform: translateX(-400%);
-    } */
-
-
 .card {
     margin: 20px;
     height: 400px;
@@ -203,7 +191,7 @@
 }
 
 .bgimg {
-    background-image: url(../images/lot-fresh-delicious-cookies-with-small-pinecones-dried-oranges.jpg);
+    background-image: url(../Assets/images/lot-fresh-delicious-cookies-with-small-pinecones-dried-oranges.jpg);
     background-size: cover;
     font-family: manda;
     font-size: 3rem;
@@ -243,7 +231,7 @@
 
     height: 400px;
     width: 650px;
-    background-image: url(../images/visitus2.jpg);
+    background-image: url(../Assets/images/visitus2.jpg);
     background-size: cover;
     border-radius: 2px;
     margin: 20px;
@@ -292,7 +280,7 @@
 .quality>.box3 {
     height: 400px;
     width: 650px;
-    background-image: url(../images/chocolate-pancakes-with-chocolate-syrup-banana.jpg);
+    background-image: url(../Assets/images/chocolate-pancakes-with-chocolate-syrup-banana.jpg);
     background-size: cover;
     border-radius: 2px;
     margin: 20px;
@@ -402,7 +390,7 @@
     height: 550px;
     width: 700px;
     margin-left: 20px;
-    background-image: url(../images/lemon\ cake.jpg);
+    background-image: url(../Assets/images/lemon\ cake.jpg);
     background-size: cover;
 }
 
@@ -445,7 +433,7 @@
 }
 
 .newsletter {
-    background-image: url(../images/newsletter.jpg);
+    background-image: url(../Assets/images/newsletter.jpg);
     background-size: cover;
     display: flex;
     flex-direction: column;
